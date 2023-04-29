@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Text editor like codepen">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="styles.css">
+  <title>Editor</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="html">
+        <label>HTML</label>
+        <textarea name="" onkeyup="run()" id="html-code" rows="11"></textarea>
+      </div>
+      <div class="css">
+        <label>CSS</label>
+        <textarea name="" onkeyup="run()" id="css-code" rows="11"></textarea>
+      </div>
+      <div class="js">
+        <label>JS</label>
+        <textarea name="" onkeyup="run()" id="js-code" rows="11"></textarea>
+      </div>      
+    </div>
+    <div class="right"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
